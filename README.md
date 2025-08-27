@@ -1,29 +1,30 @@
-# tourism-prediction-blue-nalu-analytics-consulting
+# Forecasting visitor demand for data-driven municipal planning.
 
-Overview
-Predictive modeling system for forecasting visitor presence in Surf City, NC to optimize public safety staffing, emergency clinic readiness, and business planning.
-Tech Stack
+Surf City, NC faces unpredictable tourism surges that strain public services and local businesses. This project develops machine learning models to predict visitor presence weeks in advance using multi-source data including foot traffic analytics, weather patterns, booking data, and visitor demographic profiles.
 
-Data: Google BigQuery, SQL
+Impact: Enables proactive resource allocation for public safety, emergency services, and business operations through actionable predictive insights.
+
+## Tech Stack
+Google BigQuery, SQL
 Analysis: Python/R, Machine Learning
 Visualization: Tableau
 Data Sources: Placer.ai foot traffic, demographics, weather, booking data, events
 
-Key Features
+## Key Features
 Multi-source data integration from 8,905+ ZIP codes
 Persona-based forecasting (Day Trippers, Vacation Families, etc.)
 Real-time uncertainty modeling
 Stakeholder dashboard for municipal decision-making
 
-Data Pipeline
+## Data Pipeline
 Raw Data → BigQuery → Feature Engineering → ML Models → Tableau Dashboards
 
-Team
+## Team
 UNC MADS - Current capstone team
-Alumni Mentors - Derek, Sooji, Gibson (UNC), Tina, Karol (Wake Forest)
 Partners - Blue Nalu Analytics, Surf City stakeholders
 
-Project Status
+## Project Status
 Phase II enhancement of existing visitor forecasting models with focus on persona-based predictions and real-world deployment.
-Impact
+
+## Impact
 Beta testing framework designed for replication across dozens of NC municipalities lacking predictive analytics infrastructure.
